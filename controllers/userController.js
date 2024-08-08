@@ -1,3 +1,7 @@
+const { PrismaClient } = require("@prisma/client");
+
+const prisma = new PrismaClient();
+
 module.exports = {
   saveUser: async (req, res) => {
     const { name, email } = req.body;
