@@ -1,0 +1,19 @@
+{
+  "name": "turma-dc-sul-tarde",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.18.0",
+    "express": "^4.19.2",
+    "mysql2": "^3.11.0",
+    "prisma": "^5.18.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  }
+}
